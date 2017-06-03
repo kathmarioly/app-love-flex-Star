@@ -66,6 +66,7 @@ body {
 }
 .text-home{
 	font-size: 2.4em;
+
 }
 
 .btn-home{
@@ -79,4 +80,23 @@ body {
   display: inline-block;
   font-size: 14px;
   text-decoration: none;
+}
+
+/*Services*/
+#services{
+	background-color: #F17C72;
+	text-align: center;
+	color: #fff;
+	padding: 70px;
+}
+
+#services.flex-container{
+	justify-content: space-around;/* con el valor space-arounf, en la propiedad justify-content:
+	los elementos internnos se distribuyen dentro de la pantalla, dejando un espacio a cada lado*/
+	flex-wrap: wrap; /*Para que los elementos no se vean forzados a desplegarse en una sola linea. */
+}
+
+.box-services{
+	font-size: 1.2em;
+	font-weight: bold;
 }
