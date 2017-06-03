@@ -100,3 +100,12 @@ body {
 	font-size: 1.2em;
 	font-weight: bold;
 }
+
+/*Footer*/
+
+footer{
+	background-color: gray;
+	text-align: center;
+	color: white;
+	padding: 20px;
+}
