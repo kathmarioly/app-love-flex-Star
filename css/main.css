@@ -57,12 +57,26 @@ body {
 	background-repeat: no-repeat;
 
 
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
+	justify-content: center;/*Se posicionan justo en el centro de la sección, en ambos ejes.*/
+	align-items: center; /*Se posicionan justo en el centro de la sección, en ambos ejes.*/
+	
+	flex-direction: column; /*Desplegar en forma vertical*/
 
 	color: whitesmoke;
 }
 .text-home{
 	font-size: 2.4em;
+}
+
+.btn-home{
+  background: #2Ecc71;
+  color: #fff;
+  padding: 10px 9px;
+  border-radius: 3px;
+  font-weight: 500px;
+  text-transform: uppercase;
+  margin-top: 63px;
+  display: inline-block;
+  font-size: 14px;
+  text-decoration: none;
 }
